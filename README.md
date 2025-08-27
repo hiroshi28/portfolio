@@ -50,4 +50,4 @@ No advanced features outside the given requirements are included.
 ---
 
 ## 👨‍🎓 Author  
-Developed by **Kim professor** — as part of my coursework guided by my teacher/professor **"CARL"**.  
+Developed by **Kim Joseph** — as part of my coursework guided by my teacher/professor **"CARL"**.  
