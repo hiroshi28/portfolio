@@ -50,7 +50,7 @@ button {
   display: block;
   text-align: center;
 }
-tr, th {
+tr, th, td {
   border: 4px solid;
   border-color: rgba(0, 0, 255, 0.5);
   font-family: 'Roboto', sans-serif;
