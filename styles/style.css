@@ -51,11 +51,20 @@ button {
   text-align: center;
 }
 table {
-  border-collapse: collapse; /* para walang double border */
-  width: 90%;
+  border-collapse: collapse; /* para walang double borders */
+  width: 80%;
   margin: 20px auto;
 }
-th, td {
+
+th {
+  background-color: #003366;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+  border: 2px solid rgba(0, 0, 255, 0.5);
+}
+
+td {
   border: 2px solid rgba(0, 0, 255, 0.5);
   padding: 8px;
   font-family: 'Roboto', sans-serif;
