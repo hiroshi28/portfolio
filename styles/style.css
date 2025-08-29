@@ -51,7 +51,7 @@ button {
   text-align: center;
 }
 table {
-  border-collapse: collapse; /* para walang double borders */
+  border-collapse: collapse;
   width: 80%;
   margin: 20px auto;
 }
