@@ -1,6 +1,5 @@
 # 🌐 PORTFOLIO  
-# 🔗 [VISIT MY SITE]([https://pages.github.com/](https://hiroshi28.github.io/portfolio)
-
+# 🔗 [VISIT MY SITE](https://hiroshi28.github.io/portfolio)
 This project is a **portfolio website** created as part of my coursework.  
 It strictly follows the instructions and progress set by my **teacher/professor**.  
 No advanced features outside the given requirements are included.  
