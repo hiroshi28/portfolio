@@ -136,14 +136,16 @@
     <div class="inner">❅</div>
   </div>
    </div>
-  <audio autoplay loop controls>
+  <audio id="bg-music" loop>
     <source src="audio/christmas-bg.mp3" type="audio/mpeg">
   </audio>
   <footer>
     <h4>Thanks for visiting my website — Come again ❤️</h4>
   </footer>
 </body>
+<script>
+  document.addEventListener("click", () => {
+    document.getElementById("bg-music").play();
+  }, { once: true });
+</script>
 </html>
-
-
-
