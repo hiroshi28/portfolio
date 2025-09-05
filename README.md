@@ -1,5 +1,5 @@
 # 🌐 PORTFOLIO  
-# 🔗 [VISIT MY SITE](hiroshikim.info)
+# 🔗 [VISIT MY SITE](https://hiroshikim.info)
 This project is a **portfolio website** created as part of my coursework.  
 It strictly follows the instructions and progress set by my **teacher/professor**.  
 No advanced features outside the given requirements are included.  
