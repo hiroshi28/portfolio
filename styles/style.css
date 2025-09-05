@@ -55,7 +55,6 @@ table {
   width: 80%;
   margin: 20px auto;
 }
-
 th {
   background-color: #003366;
   color: white;
@@ -63,26 +62,22 @@ th {
   padding: 10px;
   border: 2px solid rgba(0, 0, 255, 0.5);
 }
-
 td {
   border: 2px solid rgba(0, 0, 255, 0.5);
   padding: 8px;
   font-family: 'Roboto', sans-serif;
   text-align: center;
 }
-
 input {
   background-color: #f5f5f5;
   border: 1px solid #ccc;
   padding: 10px;
 }
-
 input[type="text"], input[type="password"] {
   width: 80%;
   margin-bottom: 15px;
   border-radius: 10px;
 }
-
 input[type="submit"] {
   width: 100%;
   padding: 12px;
@@ -114,6 +109,11 @@ video {
   width: 400px;
   margin: 20px auto;
   background-color: #f0f8ff;
+}
+ul, ol {
+  list-style-position: inside;
+  text-align: center;
+  padding: 0;
 }
 /* CREDITS: https://pajasevi.github.io/CSSnowflakes/ */
 .snowflake {
