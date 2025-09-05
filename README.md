@@ -1,5 +1,5 @@
 # 🌐 PORTFOLIO  
-# 🔗 [VISIT MY SITE](https://hiroshi28.github.io/portfolio)
+# 🔗 [VISIT MY SITE](hiroshikim.info)
 This project is a **portfolio website** created as part of my coursework.  
 It strictly follows the instructions and progress set by my **teacher/professor**.  
 No advanced features outside the given requirements are included.  
@@ -33,6 +33,19 @@ No advanced features outside the given requirements are included.
 - 🔹 Meaningful use of `<table>` with proper structure, headers, and data rows  
 - 🔹 *Bonus*: Working and relevant `<video>` / `<audio>`  
 - 🔹 Code quality with proper file naming conventions  
+
+---
+
+### 📝 Third Week: Progress #3  
+**Date:** September 5, 2025  
+
+**Requirements:**  
+- 🔹 Previous progresses included  
+- 🔹 Form with meaningful purpose  
+- 🔹 Proper use of form attributes  
+- 🔹 Minimum of two inputs with proper labeling and `for` attribute  
+- 🔹 Use of `<select>` and `<option>` with meaningful purpose  
+- 🔹 Form properly placed in the website  
 
 ---
 
