@@ -102,14 +102,6 @@ video {
 .contact-us textarea, .contact textarea {
   text-align: center;
 }
-.contact-us form {
-  border: 2px solid #333;
-  border-radius: 8px;
-  padding: 20px;
-  width: 400px;
-  margin: 20px auto;
-  background-color: #f0f8ff;
-}
 ul, ol {
   list-style-position: inside;
   text-align: center;
