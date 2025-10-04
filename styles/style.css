@@ -3,6 +3,13 @@ body {
   font-family: Courier New, monospace;
   background-color: rgba(220, 235, 255, 0.7);
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
+}
 html {
   scroll-behavior: smooth;
 }
