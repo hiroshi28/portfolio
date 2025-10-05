@@ -1,5 +1,6 @@
 # 🌐 PORTFOLIO  
-# 🔗 [VISIT MY SITE](https://hiroshikim-project-portfolio.vercel.app/)
+# 🔗(HOSTED ON VERCEL: [VISIT MY SITE](https://hiroshikim-project-portfolio.vercel.app/)
+# 🔗(HOSTED ON RENDER: [VISIT MY SITE](https://kim-joseph-portfolio.onrender.com/)
 This project is a **portfolio website** created as part of my coursework.  
 It strictly follows the instructions and progress set by my **teacher/professor**.  
 No advanced features outside the given requirements are included.  
