@@ -21,7 +21,7 @@ h1 {
   border-radius: 10px;
   padding: 10px;
 }
-img {
+#project img {
   border-radius: 8px;
   border-style: solid;
   justify-content: center;
@@ -34,14 +34,21 @@ img {
   display: block;
   border-radius: 50%;
 }
-button {
+#about a {
   background-color: #008CBA;
-  border: none;
   color: white;
+  border: none;
   text-align: center;
-  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
   padding: 10px 20px;
-  border-radius: 8px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+#about a:hover {
+  backgroud-color: #03fc5a;
+  color: black;
+  cursor: pointer;
 }
 .navigation nav a {
   font-family: 'Roboto', sans-serif;
