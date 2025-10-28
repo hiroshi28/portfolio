@@ -100,7 +100,7 @@ main {
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	background: url('image/bg.jpg') center center / cover no-repeat;
+	background: url('https://i.imgur.com/q86MeaV.jpeg') center center / cover no-repeat;
 }
 
 #home .filter {
