@@ -1,181 +1,267 @@
 <!DOCTYPE html>
-<html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="styles/style.css">
-      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
-      <title>My Portfolio</title>
-   </head>
-   <body>
-      <header>
-         <h1>MY PORTFOLIO</h1>
-         <p>BSIT STUDENT | POLYTECHNIC INSTITUTE OF TABACO</p>
-         <div class="navigation">
-            <nav>
-               <a href="#about" class="active">about me</a>
-               <a href="#game">my game</a>
-               <a href="#fav">favorite site</a>
-               <a href="#knowledge">my knowledge</a>
-               <a href="#contact-us">contact us</a>
-            </nav>
-         </div>
-      </header>
-      <div class="about" id="about">
-         <br>
-         <h1>ABOUT ME</h1>
-         <img src="image/me.png" alt="its me kim joseph" width="150" height="150">
-         <p>Hello, my name is <strong>Kim Joseph D. Bien</strong> from <strong>Bacolod, Tabaco City</strong>.  
-            You can call me Kim or Joseph, and I am also known as <strong>HiroshiKim</strong> on social media.  
-            I am currently studying at <strong>PITA Tabaco</strong>.  
-         </p>
-         <a href="about.html" >More About Me</a>
-         <a href="schedule.html">School Sched</a>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>My Project</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <!-- for logo socmed recommended from my friend -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+  <!-- for logo socmed recommended from my friend -->
+  <link rel="icon" href="https://i.imgur.com/DdLrXqF.png">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a class="logo" href="#home">
+        <img src="image/nav-img.png" alt="Hiroshi Logo">
+      </a>
+      <nav>
+        <ul class="nav-bar">
+          <li><a class="nav-link active" href="#home">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#knowledge">Knowledge</a></li>
+          <li><a class="nav-link" href="#education">Education</a></li>
+          <li><a class="nav-link" href="#projects">Projects</a></li>
+          <li><a class="nav-link" href="#schedule">Schedule</a></li>
+          <li><a class="nav-link" href="#contact-us">Contact</a></li>
+        </ul>
+        <div class="nav-bar2">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div id="home">
+        <div class="filter"></div>
+        <div class="intro">
+          <h1>MY PORTFOLIO</h1>
+          <hr>
+          <p>BSIT STUDENT | POLYTECHNIC INSTITUTE OF TABACO</p>
+          <div class="social-media">
+            <a href="https://www.facebook.com/kimtzy2006" target="_blank" alt="facebook"><i
+                class="fab fa-facebook"></i></a>
+            <a href="https://github.com/hiroshi28" target="_blank" alt="github"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
       </div>
-      <marquee>This project is a portfolio website created as part of my coursework.
-         It strictly follows the instructions and progress set by my teacher/professor.
-         No advanced features outside the given requirements are included.
+      <hr class="line">
+
+      <div id="about" class="section about">
+        <h3>ABOUT ME</h3>
+        <div class="profile">
+          <img src="image/me.png" alt="Its me, Kim Joseph" width="150" height="150">
+        </div>
+        <p>
+          Hello, my name is <strong>Kim Joseph D. Bien</strong> from <strong>Bacolod, Tabaco City</strong>.
+          You can call me Kim or Joseph, and I am also known as <strong>HiroshiKim</strong> on social media.
+          I am currently studying at <strong>PITA Tabaco</strong>.
+        </p>
+        <p>
+          I have a strong interest in <strong>programming, automation, and technology</strong>, where I enjoy
+          creating tools, bots, and useful projects. I know a little about <strong>Node.js, HTML, and CSS</strong>,
+          and I am also learning how to use <strong>GitHub repositories</strong> and how to
+          <strong>host websites</strong>. Most of my project involves exploring new skills step by step and improving
+          through practice.
+        </p>
+        <div class="mycontact">
+          <h4 class="sub-title">My Contact</h4>
+          <p>
+            <b>Email:</b> <u>hiroshikim200628@gmail.com</u><br>
+            <b>Number:</b> <u>09707452447</u><br>
+            <b>Facebook:</b>
+            <a href="https://www.facebook.com/kimbien1520" target="_blank" rel="noopener">Kim Joseph D. Bien</a>
+          </p>
+        </div>
+      </div>
+      <hr class="line">
+
+      <marquee>
+        This project is a portfolio website created as part of my courseproject. It strictly follows the instructions
+        and progress set by my teacher/professor. No advanced features outside the given requirements are included.
       </marquee>
-      <div class="game" id="game">
-         <br>
-         <h1>MY ONLINE GAME USER LIST</h1>
-         <ul>
-            <li><span style="color:blue">Roblox:</span> Hoshiikb</li>
-            <li><span style="color:blue">Mobile Legends:</span> HoshiiKB</li>
-            <li><span style="color:blue">CrossFire:</span> EXE_Bien</li>
-         </ul>
+      <hr class="line">
+
+      <div id="knowledge" class="section">
+        <h3>LIST MY SKILLS</h3>
+        <ul>
+          <li><b>C++</b>: Basic structure, functions, and making simple console games and calculators (learned in first
+            year college).</li>
+          <li><b>GitHub</b>: Basic use of GitHub repo – uploading files, creating projects, and organizing folders.</li>
+          <li><b>Hosting</b>: Basic hosting of HTML, Node.js, and Python projects using Vercel and other hosting
+            platforms.</li>
+        </ul>
       </div>
-      <div class="fav" id="fav">
-         <br>
-         <h1>MY FAVORITE WEBSITE</h1>
-         <p>This is my favorite website (<a href="https://www.phcorner.org" target="_blank">PHCORNER</a>) because I get free courses about my major subject in school and receive free benefits like a free account, access to a movie site, and a chatbot.</p>
-         <h2>Examples</h2>
-         <ol>
-            <li>Free Netflix account</li>
-            <li>Movie site</li>
-            <li>Useful site</li>
-         </ol>
+      <hr class="line">
+
+      <div id="education" class="section education">
+        <h3>EDUCATION</h3>
+        <div class="edu-list">
+          <div class="edu-card current">
+            <h4>College (Current 2nd Year)</h4>
+            <p><b>Polytechnic Institute of Tabaco (PITA)</b></p>
+            <p>BSIT • 2024–Present • Tabaco City</p>
+          </div>
+          <div class="edu-card">
+            <h4>Senior High School</h4>
+            <p><b>Tabaco National High School</b></p>
+            <p>Strand: GAS • Graduated: 2024</p>
+          </div>
+          <div class="edu-card">
+            <h4>Junior High School</h4>
+            <p><b>Tabaco National High School</b></p>
+            <p>Graduated: 2022</p>
+          </div>
+          <div class="edu-card">
+            <h4>Elementary</h4>
+            <p><b>Tabaco North Elementary School</b></p>
+            <p>Graduated: 2018 </p>
+          </div>
+        </div>
       </div>
-      <div class="knowledge" id="knowledge">
-         <br>
-         <h1>LIST MY SKILLS</h1>
-         <ul>
-            <li><b>C++</b>: Basic structure, functions, and making simple console games and calculators (learned in first year college).</li>
-            <li><b>GitHub</b>: Basic use of GitHub repo – uploading files, creating projects, and organizing folders.</li>
-            <li><b>Hosting</b>: Basic hosting of HTML, Node.js, and Python projects using Vercel and other hosting platforms.</li>
-         </ul>
+      <hr class="line">
+
+      <div id="binimaloi" class="section binimaloi">
+        <h3>MY BINI BIAS PIC</h3>
+        <div class="gallery">
+          <div class="photo"><img src="./image/bini_maloi/img1.png" alt="BINI Maloi 1" loading="lazy"></div>
+          <div class="photo"><img src="./image/bini_maloi/img2.jpg" alt="BINI Maloi 2" loading="lazy"></div>
+          <div class="photo"><img src="./image/bini_maloi/img3.jpg" alt="BINI Maloi 3" loading="lazy"></div>
+          <div class="photo"><img src="./image/bini_maloi/img4.png" alt="BINI Maloi 4" loading="lazy"></div>
+          <div class="photo"><img src="./image/bini_maloi/img5.png" alt="BINI Maloi 5" loading="lazy"></div>
+          <div class="photo"><img src="./image/bini_maloi/img6.png" alt="BINI Maloi 6" loading="lazy"></div>
+        </div>
       </div>
-      <div class="quote" id="quote">
-         <br>
-         <h1>FAV QUOTE</h1>
-         <p><q><i>If you fail, just try again and again until you achieve victory.</i></q></p>
-         <br><br>
+      <hr class="line">
+
+      <div id="projects" class="section">
+        <h3>MY PROJECTS</h3>
+        <p>Here are some basic projects.</p>
+        <div class="project">
+          <div class="card">
+            <img class="project-img" src="image/SOON.jpg" alt="SOON">
+            <a href="" target="_blank">
+              <div class="project-content">COMING SOON</div>
+            </a>
+          </div>
+          <div class="card">
+            <img class="project-img" src="image/SOON.jpg" alt="SOON">
+            <a href="" target="_blank">
+              <div class="project-content">COMING SOON</div>
+            </a>
+          </div>
+          <div class="card">
+            <img class="project-img" src="image/SOON.jpg" alt="SOON">
+            <a href="" target="_blank">
+              <div class="project-content">COMING SOON</div>
+            </a>
+          </div>
+          <div class="card">
+            <img class="project-img" src="image/SOON.jpg" alt="SOON">
+            <a href="" target="_blank">
+              <div class="project-content">COMING SOON</div>
+            </a>
+          </div>
+        </div>
       </div>
-      <div class="binimaloi">
-         <h1>MY<br>BINI<br>BIAS<br>PIC</h1>
-         <div style="background-image: url('./image/bini_maloi/img1.png')"></div>
-         <div style="background-image: url('./image/bini_maloi/img2.jpg')"></div>
-         <div style="background-image: url('./image/bini_maloi/img3.jpg')"></div>
-         <div style="background-image: url('./image/bini_maloi/img4.png')"></div>
-         <div style="background-image: url('./image/bini_maloi/img5.png')"></div>
-         <div style="background-image: url('./image/bini_maloi/img6.png')"></div>
+      <hr class="line">
+
+      <div id="videos" class="section videos-page">
+        <h3>VIDEO GALLERY</h3>
+        <p class="videos-sub">Memories videos.</p>
+
+        <div class="video-grid">
+          <div class="video-card">
+            <video controls preload="metadata">
+              <source src="media/tnhs.mp4" type="video/mp4">
+            </video>
+            <h4>Last Week on TNHS</h4>
+            <p>Time Lapse video and last memory in TNHS</p>
+          </div>
+          <div class="video-card">
+            <video controls preload="metadata">
+              <source src="media/crossfire.mp4" type="video/mp4">
+            </video>
+            <h4>GamePlay Pandemic ERA</h4>
+            <p>Crossfire online game in 2021</p>
+          </div>
+        </div>
       </div>
-      <div class="motivational">
-         <br>
-         <h1>MY MOTIVATIONAL VIDEO</h1>
-         <video width="320" height="250" controls>
-            <source src="media/ssstik.io_@hoshi0628_1756298876421.mp4">
-         </video>
-         <!-- CREDITS: https://pajasevi.github.io/CSSnowflakes/ -->
+      <hr class="line">
+
+      <div id="schedule" class="section">
+        <h3>SCHOOL SCHEDULE</h3>
+        <table>
+          <tr>
+            <th>DAY</th>
+            <th>TIME</th>
+            <th>SUBJECT</th>
+          </tr>
+          <tr>
+            <td rowspan="5">Mon / Wed</td>
+            <td>11AM - 12PM</td>
+            <td>Dance</td>
+          </tr>
+          <tr>
+            <td>12PM - 1PM</td>
+            <td>Lunch Time</td>
+          </tr>
+          <tr>
+            <td>1PM - 2PM</td>
+            <td>Rizal</td>
+          </tr>
+          <tr>
+            <td>2PM - 3PM</td>
+            <td>OOP</td>
+          </tr>
+          <tr>
+            <td>5PM - 6PM</td>
+            <td>Web Dev</td>
+          </tr>
+          <tr>
+            <td rowspan="3">Friday</td>
+            <td>1PM - 2PM</td>
+            <td>Rizal</td>
+          </tr>
+          <tr>
+            <td>2PM - 3PM</td>
+            <td>OOP</td>
+          </tr>
+          <tr>
+            <td>5PM - 6PM</td>
+            <td>Web Dev</td>
+          </tr>
+          <tr>
+            <td rowspan="2">Saturday</td>
+            <td>9AM - 12PM</td>
+            <td>Science</td>
+          </tr>
+          <tr>
+            <td>1PM - 4PM</td>
+            <td>HCI</td>
+          </tr>
+        </table>
       </div>
-      <div class="snowflakes" aria-hidden="true">
-         <div class="snowflake">
-            <div class="inner">❅</div>
-         </div>
-         <div class="snowflake">
-            <div class="inner">❅</div>
-         </div>
-         <div class="snowflake">
-            <div class="inner">❅</div>
-         </div>
-         <div class="snowflake">
-            <div class="inner">❅</div>
-         </div>
-         <div class="snowflake">
-            <div class="inner">❅</div>
-         </div>
-         <div class="snowflake">
-            <div class="inner">❅</div>
-         </div>
-         <div class="snowflake">
-            <div class="inner">❅</div>
-         </div>
-         <div class="snowflake">
-            <div class="inner">❅</div>
-         </div>
-         <div class="snowflake">
-            <div class="inner">❅</div>
-         </div>
-         <div class="snowflake">
-            <div class="inner">❅</div>
-         </div>
-         <div class="snowflake">
-            <div class="inner">❅</div>
-         </div>
-         <div class="snowflake">
-            <div class="inner">❅</div>
-         </div>
+      <hr class="line">
+
+      <div id="contact-us" class="section">
+        <h3>CONTACT</h3>
+        <p>Contact me on social media</p>
+        <div class="social-media">
+          <a href="https://www.facebook.com/kimtzy2006" target="_blank" alt="facebook"><i
+              class="fab fa-facebook"></i></a>
+          <a href="https://github.com/hiroshi28" target="_blank" alt="github"><i class="fab fa-github"></i></a>
+        </div>
       </div>
-      <!-- CREDITS: https://pajasevi.github.io/CSSnowflakes/ -->
-      <div class="contact-us" id="contact-us">
-         <form action="about.html" method="get">
-            <label for="visitor">Name:</label><br>
-            <input
-               type="text"
-               id="visitor"
-               name="visitor"
-               placeholder="Enter your name."
-               required
-               ><br><br>
-            <label for="rating">Rating:</label><br>
-            <select
-               id="rating"
-               name="rating"
-               required
-               >
-               <option value="">-- Select rating --</option>
-               <option value="excellent">Excellent</option>
-               <option value="good">Good</option>
-               <option value="average">Average</option>
-               <option value="bad">Bad</option>
-            </select>
-            <br><br>
-            <label for="comments">Your Feedback:</label><br>
-            <textarea
-               id="comments"
-               name="comments"
-               placeholder="Write your feedback here..."
-               rows="5"
-               required
-               ></textarea>
-            <br><br>
-            <input
-               type="submit"
-               value="Submit"
-               class="subton"
-               >
-         </form>
-      </div>
-      <audio id="bg-music" loop>
-         <source src="audio/christmas-bg.mp3" type="audio/mpeg">
-      </audio>
-      <footer>
-         <h4>© 2025 Kim Joseph. All rights reserved.</h4>
-      </footer>
-   </body>
-   <script>
-      document.addEventListener("click", () => {
-        document.getElementById("bg-music").play();
-      }, { once: true });
-   </script>
+      <hr class="line">
+    </main>
+
+    <footer class="copyright">
+      © 2025 <a href="https://facebook.com/kimbien1520" target="_blank">HiroshiKim.</a>
+    </footer>
+  </div>
+  < </body>
 </html>
