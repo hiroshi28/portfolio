@@ -34,10 +34,12 @@ header {
 	padding: 0 16px;
 	z-index: 10;
 }
+
 .logo h3 {
 	display: inline-block;
 	margin-top: 10px;
 }
+
 .logo img {
 	height: 50px;
 	padding-top: 5px;
@@ -397,18 +399,18 @@ footer {
 	background: #21252e;
 }
 
-.videos-page{
+.videos-page {
 	justify-content: flex-start;
 	padding-top: 90px;
 	padding-bottom: 30px;
 }
 
-.videos-sub{
+.videos-sub {
 	max-width: 900px;
 	margin: 8px auto 16px;
 }
 
-.video-grid{
+.video-grid {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 16px;
@@ -417,7 +419,7 @@ footer {
 	max-width: 1200px;
 }
 
-.video-card{
+.video-card {
 	background: #21252e;
 	border: 1px solid #00a9e2;
 	border-radius: 8px;
@@ -426,7 +428,7 @@ footer {
 	text-align: left;
 }
 
-.video-card video{
+.video-card video {
 	width: 100%;
 	height: auto;
 	display: block;
@@ -434,18 +436,24 @@ footer {
 	margin-bottom: 8px;
 }
 
-.video-card h4{
+.video-card h4 {
 	margin: 4px 0 6px;
 	font-size: 18px;
 }
 
-.video-card p{
+.video-card p {
 	margin: 0;
 	font-size: 14px;
 	color: #e5e7eb;
 }
 
-@media (max-width: 500px){
-	.videos-page{ padding-top: 70px; }
-	.video-card{ width: 100%; max-width: 360px; }
+@media (max-width: 500px) {
+	.videos-page {
+		padding-top: 70px;
+	}
+
+	.video-card {
+		width: 100%;
+		max-width: 360px;
+	}
 }
