@@ -385,3 +385,28 @@ footer {
 		transform: rotate(45deg) translate(-5px, -6px);
 	}
 }
+
+.work .workexp-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 16px;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+.work .workexp-card {
+	width: 280px;
+	text-align: left;
+	background: #21252e;
+	border: 1px solid #00a9e2;
+	border-radius: 8px;
+	padding: 16px;
+}
+
+.work .workexp-card h4 {
+	margin-bottom: 6px;
+}
+
+.work .workexp-card.current {
+	border-color: #00c2ff;
+}
