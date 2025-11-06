@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>My Project</title>
+  <meta name="description"
+    content="Kim Joseph D. Bien - BSIT Student Portfolio from Tabaco City. Web Developer passionate about programming and technology.">
+  <title>HiroshiKim - Portfolio</title>
   <link rel="stylesheet" href="styles/style.css">
   <!-- for logo socmed recommended from my friend -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
@@ -11,6 +13,10 @@
   <link rel="icon" href="https://i.imgur.com/DdLrXqF.png">
 </head>
 <body>
+  <div class="loader">
+    <div class="spinner"></div>
+    <p>Loading...</p>
+  </div>
   <div class="container">
     <header>
       <a class="logo" href="#home">
@@ -43,15 +49,15 @@
           <hr>
           <p>BSIT STUDENT | POLYTECHNIC INSTITUTE OF TABACO</p>
           <div class="social-media">
-            <a href="https://www.facebook.com/kimtzy2006" target="_blank" alt="facebook"><i
+            <a href="https://www.facebook.com/kimtzy2006" target="_blank" aria-label="Facebook"><i
                 class="fab fa-facebook"></i></a>
-            <a href="https://github.com/hiroshi28" target="_blank" alt="github"><i class="fab fa-github"></i></a>
+            <a href="https://github.com/hiroshi28" target="_blank" aria-label="Github"><i class="fab fa-github"></i></a>
           </div>
         </div>
       </div>
       <hr class="line">
       <div id="about" class="section about">
-        <h3>ABOUT ME</h3>
+        <h3><i class="fas fa-user"></i> ABOUT ME</h3>
         <div class="profile">
           <img src="image/me.png" alt="Its me, Kim Joseph" width="150" height="150">
         </div>
@@ -69,13 +75,8 @@
         </p>
       </div>
       <hr class="line">
-      <marquee>
-        This project is a portfolio website created as part of my courseproject. It strictly follows the instructions
-        and progress set by my teacher/professor. No advanced features outside the given requirements are included.
-      </marquee>
-      <hr class="line">
       <div id="knowledge" class="section">
-        <h3>LIST MY SKILLS</h3>
+        <h3><i class="fas fa-code"></i> MY SKILLS</h3>
         <ul>
           <li><b>C++</b>: Basic structure, functions, and making simple console games and calculators (learned in first
             year college).
@@ -85,10 +86,51 @@
             platforms.
           </li>
         </ul>
+        <div class="skills-container">
+
+          <div class="skill-box">
+            <div class="skill-info">
+              <span class="skill-name">HTML & CSS</span>
+              <span class="skill-percent">40%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 40%"></div>
+            </div>
+          </div>
+          <div class="skill-box">
+            <div class="skill-info">
+              <span class="skill-name">C++/JAVA</span>
+              <span class="skill-percent">35%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 35%"></div>
+            </div>
+          </div>
+
+          <div class="skill-box">
+            <div class="skill-info">
+              <span class="skill-name">GitHub</span>
+              <span class="skill-percent">80%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 80%"></div>
+            </div>
+          </div>
+
+          <div class="skill-box">
+            <div class="skill-info">
+              <span class="skill-name">Node.js</span>
+              <span class="skill-percent">25%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 25%"></div>
+            </div>
+          </div>
+        </div>
       </div>
       <hr class="line">
       <div id="education" class="section education">
-        <h3>EDUCATION</h3>
+        <h3><i class="fas fa-graduation-cap"></i> EDUCATION</h3>
         <div class="edu-list">
           <div class="edu-card current">
             <h4>College (Current 2nd Year)</h4>
@@ -114,13 +156,13 @@
       </div>
       <hr class="line">
       <div id="projects" class="section">
-        <h3>MY PROJECTS</h3>
+        <h3><i class="fas fa-project-diagram"></i> MY PROJECTS</h3>
         <p>Here are some basic projects.</p>
         <div class="project">
           <div class="card">
-            <img class="project-img" src="image/SOON.jpg" alt="SOON">
-            <a href="" target="_blank">
-              <div class="project-content">COMING SOON</div>
+            <img class="project-img" src="https://i.imgur.com/EOPSoKN.png" alt="fsms web api">
+            <a href="https://www.facebook.com/share/p/16FKgTKAf2/" target="_blank">
+              <div class="project-content">FSMS WEB API</div>
             </a>
           </div>
           <div class="card">
@@ -145,7 +187,7 @@
       </div>
       <hr class="line">
       <div id="work" class="section work">
-        <h3>WORK EXPERIENCE</h3>
+        <h3><i class="fas fa-briefcase"></i> WORK EXPERIENCE</h3>
         <div class="workexp-list">
           <div class="workexp-card current">
             <h4>Joran Advertising @ Tabaco City</h4>
@@ -161,83 +203,123 @@
       </div>
       <hr class="line">
       <div id="schedule" class="section">
-        <h3>SCHOOL SCHEDULE</h3>
+        <h3><i class="fas fa-calendar-alt"></i> SCHOOL SCHEDULE</h3>
         <table>
-          <tr>
-            <th>DAY</th>
-            <th>TIME</th>
-            <th>SUBJECT</th>
-          </tr>
-          <tr>
-            <td rowspan="5">Mon / Wed</td>
-            <td>11AM - 12PM</td>
-            <td>Dance</td>
-          </tr>
-          <tr>
-            <td>12PM - 1PM</td>
-            <td>Lunch Time</td>
-          </tr>
-          <tr>
-            <td>1PM - 2PM</td>
-            <td>Rizal</td>
-          </tr>
-          <tr>
-            <td>2PM - 3PM</td>
-            <td>OOP</td>
-          </tr>
-          <tr>
-            <td>5PM - 6PM</td>
-            <td>Web Dev</td>
-          </tr>
-          <tr>
-            <td rowspan="3">Friday</td>
-            <td>1PM - 2PM</td>
-            <td>Rizal</td>
-          </tr>
-          <tr>
-            <td>2PM - 3PM</td>
-            <td>OOP</td>
-          </tr>
-          <tr>
-            <td>5PM - 6PM</td>
-            <td>Web Dev</td>
-          </tr>
-          <tr>
-            <td rowspan="2">Saturday</td>
-            <td>9AM - 12PM</td>
-            <td>Science</td>
-          </tr>
-          <tr>
-            <td>1PM - 4PM</td>
-            <td>HCI</td>
-          </tr>
+          <thead>
+            <tr>
+              <th>DAY</th>
+              <th>TIME</th>
+              <th>SUBJECT</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="5">Mon / Wed</td>
+              <td>11AM - 12PM</td>
+              <td>Dance</td>
+            </tr>
+            <tr>
+              <td>12PM - 1PM</td>
+              <td>Lunch Time</td>
+            </tr>
+            <tr>
+              <td>1PM - 2PM</td>
+              <td>Rizal</td>
+            </tr>
+            <tr>
+              <td>2PM - 3PM</td>
+              <td>OOP</td>
+            </tr>
+            <tr>
+              <td>5PM - 6PM</td>
+              <td>Web Dev</td>
+            </tr>
+            <tr>
+              <td rowspan="3">Friday</td>
+              <td>1PM - 2PM</td>
+              <td>Rizal</td>
+            </tr>
+            <tr>
+              <td>2PM - 3PM</td>
+              <td>OOP</td>
+            </tr>
+            <tr>
+              <td>5PM - 6PM</td>
+              <td>Web Dev</td>
+            </tr>
+            <tr>
+              <td rowspan="2">Saturday</td>
+              <td>9AM - 12PM</td>
+              <td>Science</td>
+            </tr>
+            <tr>
+              <td>1PM - 4PM</td>
+              <td>HCI</td>
+            </tr>
+          </tbody>
         </table>
       </div>
       <hr class="line">
-      <div id="contact-us" class="section">
-        <h3>CONTACT</h3>
-        <p>Contact me on social media</p>
-        <div class="social-media">
-          <a href="https://www.facebook.com/kimtzy2006" target="_blank" alt="facebook"><i
-              class="fab fa-facebook"></i></a>
-          <a href="https://github.com/hiroshi28" target="_blank" alt="github"><i class="fab fa-github"></i></a>
-        </div>
-        <div class="mycontact">
-          <h4 class="sub-title">My Contact</h4>
-          <p>
-            <b>Email:</b> <u>hiroshikim200628@gmail.com</u><br>
-            <b>Number:</b> <u>09707452447</u><br>
-            <b>Facebook:</b>
-            <a href="https://www.facebook.com/kimbien1520" target="_blank" rel="noopener">Kim Joseph D. Bien</a>
-          </p>
+      <div id="contact-us">
+        <div class="contact-card">
+          <h4><i class="fas fa-address-card"></i> Get In Touch</h4>
+
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="contact-info">
+              <span class="contact-label">Email</span>
+              <a href="mailto:hiroshikim200628@gmail.com" class="contact-link">
+                hiroshikim200628@gmail.com
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="contact-info">
+              <span class="contact-label">Phone</span>
+              <a href="tel:+639707452447" class="contact-link">
+                09707452447
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fab fa-facebook"></i>
+            </div>
+            <div class="contact-info">
+              <span class="contact-label">Facebook</span>
+              <a href="https://www.facebook.com/kimbien1520" target="_blank" class="contact-link">
+                Kim Joseph D. Bien
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fab fa-github"></i>
+            </div>
+            <div class="contact-info">
+              <span class="contact-label">GitHub</span>
+              <a href="https://github.com/hiroshi28" target="_blank" class="contact-link">
+                @hiroshi28
+              </a>
+            </div>
+          </div>
         </div>
       </div>
-      <hr class="line">
-    </main>
-    <footer class="copyright">
-      © 2025 <a href="https://facebook.com/kimbien1520" target="_blank">HiroshiKim.</a>
-    </footer>
+  </div>
+  <hr class="line">
+  <a href="#home" class="back-to-top" aria-label="Back to top">↑</a>
+  </main>
+  <footer class="copyright">
+    © 2025 <a href="https://facebook.com/kimbien1520" target="_blank">HiroshiKim.</a>
+  </footer>
   </div>
 </body>
 </html>
-
