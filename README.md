@@ -101,8 +101,6 @@ Each progress builds upon previous work with new requirements and improvements.
 **New Features Added:**
 - 🎯 Animated progress bars for skills
 - 📊 Achievement/stats section with counters
-- 🎴 3D flip cards for education/work sections
-- 💬 Inspirational quote section
 - ⬆️ Back-to-top button
 - ⏳ Loading screen animation
 - 🎨 CSS variables for easy customization
