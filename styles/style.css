@@ -136,7 +136,7 @@ main {
 }
 
 #home h1 {
-  font-size: 60px;
+  font-size: 100px;
   letter-spacing: 1px;
   font-weight: 700;
   background: linear-gradient(135deg, #00a9e2 0%, #6fd6ff 40%, #ffffff 100%);
