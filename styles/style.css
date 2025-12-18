@@ -146,7 +146,7 @@ main {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   animation: fadeInUp 0.8s ease-out;
-  font-family: 'Quizlo', cursive;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .intro {
