@@ -1,6 +1,7 @@
 # 🌐 PORTFOLIO
 
 ## 🔗 Live Sites
+- **Official Site** [https://kimjoseph-dev.com/](https://kimjoseph-dev.com/)
 - **Vercel:** [https://hiroshikim-project-portfolio.vercel.app/](https://hiroshikim-project-portfolio.vercel.app/)
 - **Render:** [https://kim-joseph-portfolio.onrender.com/](https://kim-joseph-portfolio.onrender.com/)
 
