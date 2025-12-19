@@ -147,6 +147,7 @@ Each progress builds upon previous work with new requirements and improvements.
 .txt-anim span::after {
     animation: cursor 0.6s infinite, typing 12s steps(27) infinite;
 }
+```
 ---
 
 ## 🎯 Project Summary
@@ -173,7 +174,6 @@ Each progress builds upon previous work with new requirements and improvements.
 ### Design Features:
 - 🎨 CSS Variables for theming
 - ✨ Keyframe animations (fadeIn, fadeInUp, pulse, spin, etc.)
-- 🎴 3D flip card effects
 - 📊 Animated progress bars
 - 🌈 Gradient backgrounds and text
 - 💫 Smooth transitions and hover effects
