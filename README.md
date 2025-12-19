@@ -6,14 +6,14 @@
 - **Render:** [https://kim-joseph-portfolio.onrender.com/](https://kim-joseph-portfolio.onrender.com/)
 
 This project is a **portfolio website** created as part of my coursework.  
-It strictly follows the instructions and progress set by my **teacher/professor**.  
+It strictly follows the instructions and progress set by my **teacher/professor** - **Prof Carl**.  
 Each progress builds upon previous work with new requirements and improvements.
 
 ---
 
 ## 📅 Project Progress
 
-### 📖 First Week: Progress #1
+### 📖 Progress #1
 **Date:** August 23, 2025
 
 **Elements Required:**
@@ -29,7 +29,7 @@ Each progress builds upon previous work with new requirements and improvements.
 
 ---
 
-### 🖼️ Second Week: Progress #2
+### 🖼️ Progress #2
 **Date:** August 27, 2025
 
 **Requirements:**
@@ -41,7 +41,7 @@ Each progress builds upon previous work with new requirements and improvements.
 
 ---
 
-### 📝 Third Week: Progress #3
+### 📝 Progress #3
 **Date:** September 5, 2025
 
 **Requirements:**
@@ -54,7 +54,7 @@ Each progress builds upon previous work with new requirements and improvements.
 
 ---
 
-### 🎨 Fourth Week: Progress #4
+### 🎨 Progress #4
 **Date:** October 2, 2025
 
 **Requirements:**
@@ -69,7 +69,7 @@ Each progress builds upon previous work with new requirements and improvements.
 
 ---
 
-### 💎 Fifth Week: Progress #5
+### 💎 Progress #5
 **Date:** October 24, 2025
 
 **Evaluation Criteria:**
@@ -85,7 +85,7 @@ Each progress builds upon previous work with new requirements and improvements.
 
 ---
 
-### 🚀 Sixth Week: Progress #6
+### 🚀 Progress #6
 **Date:** November 5, 2025
 
 **Evaluation Criteria:**
@@ -109,6 +109,44 @@ Each progress builds upon previous work with new requirements and improvements.
 - 🌟 Custom scrollbar
 - 📱 Fully responsive design (mobile, tablet, desktop)
 
+---
+### ⌨️ Progress #7
+**Date:** December 19, 2025
+
+**Requirements:**
+- ✅ Previous progresses included
+- ✅ Pure CSS typing text animation in txt-anim
+- ✅ No JavaScript used for animation
+- ✅ Responsive typography with `clamp()` function
+- ✅ Mobile-optimized animation display
+
+**Focus:** Advanced CSS-only animations with typing effect for dynamic txt-anim
+**New Features Added:**
+- ⌨️ **Typing text animation** - Pure CSS implementation
+- 🔄 **Word cycling** - Rotates through: "Aspiring Frontend Developer", "Web Support Specialist", "PITAnian Student"
+- ✨ **Blinking cursor effect** - Simulated typing cursor
+- 📱 **Responsive text sizing** - Adapts to all screen sizes
+- 🎭 **Pseudo-element animation** - Uses `::before` and `::after` for effect
+
+**Animation Technical Details:**
+
+| Property | Value | Purpose |
+|----------|-------|---------|
+| `animation: words` | `12s infinite` | Cycles through 3 words |
+| `animation: typing` | `12s steps(27) infinite` | Typewriter reveal effect |
+| `animation: cursor` | `0.6s infinite` | Blinking cursor |
+| `font-size` | `clamp(1.25rem, 5vw, 2.125rem)` | Responsive sizing |
+
+**CSS Structure:**
+```css
+.txt-anim span::before {
+    content: "Aspiring Frontend Developer";
+    animation: words 12s infinite;
+}
+
+.txt-anim span::after {
+    animation: cursor 0.6s infinite, typing 12s steps(27) infinite;
+}
 ---
 
 ## 🎯 Project Summary
